@@ -1,4 +1,3 @@
-# WORK IN PROGRESS
 # A Distributed Approach to Autonomous Intersection Management via Multi-Agent Reinforcement Learning
 ## Matteo Cederle, Marco Fabris and Gian Antonio Susto
 #### Department of Information Engineering, University of Padova, 35131 Padua via Gradenigo 6/B, Italy
@@ -36,16 +35,15 @@ We validate our approach as an innovative alternative to conventional centralise
 6. To plot the results, use the notebook plots.ipynb
 
 ## Cite this work
-If you our work interesting for your research, please cite the [paper](). In BibTeX format:
+If you our work interesting for your research, please cite the [paper](https://arxiv.org/abs/2405.08655). In BibTeX format:
 
 ```bibtex
-@misc{NOSTRO PAPER,
-    title={SMARTS: Scalable Multi-Agent Reinforcement Learning Training School for Autonomous Driving},
-    author={Ming Zhou and Jun Luo and Julian Villella and Yaodong Yang and David Rusu and Jiayu Miao and Weinan Zhang and Montgomery Alban and Iman Fadakar and Zheng Chen and Aurora Chongxi Huang and Ying Wen and Kimia Hassanzadeh and Daniel Graves and Dong Chen and Zhengbang Zhu and Nhat Nguyen and Mohamed Elsayed and Kun Shao and Sanjeevan Ahilan and Baokuan Zhang and Jiannan Wu and Zhengang Fu and Kasra Rezaee and Peyman Yadmellat and Mohsen Rohani and Nicolas Perez Nieves and Yihan Ni and Seyedershad Banijamali and Alexander Cowen Rivers and Zheng Tian and Daniel Palenicek and Haitham bou Ammar and Hongbo Zhang and Wulong Liu and Jianye Hao and Jun Wang},
-    url={https://arxiv.org/abs/2010.09776},
-    primaryClass={cs.MA},
-    booktitle={Proceedings of the 4th Conference on Robot Learning (CoRL)},
-    year={2020},
-    month={11}
+@misc{cederle2024distributed,
+      title={A Distributed Approach to Autonomous Intersection Management via Multi-Agent Reinforcement Learning}, 
+      author={Matteo Cederle and Marco Fabris and Gian Antonio Susto},
+      year={2024},
+      eprint={2405.08655},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
 }
 ```
