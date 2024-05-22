@@ -15,24 +15,30 @@ We validate our approach as an innovative alternative to conventional centralise
    [SMARTS repository](https://github.com/huawei-noah/SMARTS), [SMARTS paper](https://arxiv.org/abs/2010.09776)
 
    ![](docs/_static/smarts_envision.gif)
-3. Train the agents: 
+3. Build the scenarios:
    ```
+   scl scenario build-all scenarios/sumo/multi_scenario/
+   ```
+4. Train the agents: 
+   ```
+   # You can optionally set the seed by adding --seed x, where x is the chosen seed (default 0)
    scl run main.py --headless
    ```
-4. After the agents have been trained you can evaluate the results and visualize the simulation:
+5. After the agents have been trained you can evaluate the results and visualize the simulation:
    ```
+   # You can optionally set the seed by adding --seed x, where x is the chosen seed (default 0)
    scl run --envision main.py --load_checkpoint
    ```
-5. To collect the data needed to evaluate the metrics presented in the paper run:
+6. To collect the data needed to evaluate the metrics presented in the paper run this for MAD4QN-PS:
    ```
    ./data_collection.sh
    ```
-   for MAD4QN-PS. For the random policy run instead:
+   For the random policy run instead:
    ```
    ./data_collection_random.sh
    ```
    The data for the other baselines are stored in the folder baselines
-6. To plot the results, use the notebook plots.ipynb
+7. To plot the results, use the notebook plots.ipynb
 
 ## Cite this work
 If you our work interesting for your research, please cite the [paper](https://arxiv.org/abs/2405.08655). In BibTeX format:

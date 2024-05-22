@@ -30,7 +30,7 @@ if __name__ == '__main__':
     if args.load_checkpoint:
         mem_size = 1
     else:
-        mem_size = 300#000
+        mem_size = 100000
 
     agents_straight = DuelingDDQNAgent(gamma=0.99, epsilon=1.0, lr=0.0001, input_dims=(env.observation_space.shape),
                                        n_actions=2, mem_size=int(mem_size*1.5), eps_min=0.01,
