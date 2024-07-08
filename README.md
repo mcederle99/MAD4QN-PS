@@ -41,7 +41,7 @@ We validate our approach as an innovative alternative to conventional centralise
 7. To plot the results, use the notebook plots.ipynb
 
 ## Cite this work
-If you our work interesting for your research, please cite the [paper](https://arxiv.org/abs/2405.08655). In BibTeX format:
+If you find our work interesting for your research, please cite the [paper](https://arxiv.org/abs/2405.08655). In BibTeX format:
 
 ```bibtex
 @misc{cederle2024distributed,
