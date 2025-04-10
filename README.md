@@ -1,6 +1,7 @@
 # A Distributed Approach to Autonomous Intersection Management via Multi-Agent Reinforcement Learning
 ## Matteo Cederle, Marco Fabris and Gian Antonio Susto
 #### Department of Information Engineering, University of Padova, 35131 Padua via Gradenigo 6/B, Italy
+#### Paper accepted to ATT 2024, held in conjunction with ECAI 2024
 
 ![](docs/_static/amco.png)
 
@@ -41,15 +42,13 @@ We validate our approach as an innovative alternative to conventional centralise
 7. To plot the results, use the notebook plots.ipynb
 
 ## Cite this work
-If you find our work interesting for your research, please cite the [paper](https://arxiv.org/abs/2405.08655). In BibTeX format:
+If you find our work interesting for your research, please cite the [paper](https://ceur-ws.org/Vol-3813/1.pdf). In BibTeX format:
 
 ```bibtex
-@misc{cederle2024distributed,
-      title={A Distributed Approach to Autonomous Intersection Management via Multi-Agent Reinforcement Learning}, 
-      author={Matteo Cederle and Marco Fabris and Gian Antonio Susto},
-      year={2024},
-      eprint={2405.08655},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+@inproceedings{cederle2024distributed,
+  title={A Distributed Approach to Autonomous Intersection Management via Multi-Agent Reinforcement Learning},
+  author={Cederle, Matteo and Fabris, Marco and Susto, Gian Antonio},
+  booktitle={ATT@ ECAI},
+  year={2024}
 }
 ```
